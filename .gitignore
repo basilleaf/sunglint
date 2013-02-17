@@ -1,3 +1,4 @@
 secrets.py
-published.txt
+*.txt
 *.pyc
+temp*.*
