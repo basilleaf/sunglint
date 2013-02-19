@@ -1,4 +1,4 @@
 secrets.py
-*.txt
+all_urls.txt
 *.pyc
 temp*.*
