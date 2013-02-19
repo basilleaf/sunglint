@@ -1,11 +1,21 @@
 import boto, simplejson, urllib2, requests
 from random import randint
 from tumblpy import *
-from secrets import *
 
 published_url = "https://s3.amazonaws.com/sunglints_oy_ya__/published.txt"
 blog_url = 'sunglint.tumblr.com'
 post_tags = 'sunglint,NASA,Earth'
+
+# AWS creds
+aws_access_key_id = os.environ['aws_access_key_id'])
+aws_secret_access_key = os.environ['aws_secret_access_key'])
+bucket_name = os.environ['bucket_name'])
+
+# Tumblr creds
+app_key = os.environ['app_key'])
+app_secret = os.environ['app_secret'])
+oauth_token = os.environ['oauth_token'])
+oauth_token_secret = os.environ['oauth_token_secret'])
 
 
 class ScienceData:
