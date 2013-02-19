@@ -1,6 +1,7 @@
 import boto, simplejson, urllib2, requests
 from random import randint
 from tumblpy import *
+import os
 
 published_url = "https://s3.amazonaws.com/sunglints_oy_ya__/published.txt"
 blog_url = 'sunglint.tumblr.com'
