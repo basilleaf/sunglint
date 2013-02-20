@@ -2,3 +2,4 @@ secrets.py
 all_urls.txt
 *.pyc
 temp*.*
+.gitignore
